@@ -193,16 +193,6 @@ main {
     line-height: 0;
 }
 
-
-
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-    #photos {
-        column-count: 2;
-        column-gap: 0;
-    }
-}
-
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -262,10 +252,6 @@ main {
         align-self: flex-end;
     }
 
-    /* Gallery */
-    #photos {
-        column-count: 3;
-    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
